@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+>>>>>>> c8a67afde52c216033aa1e4bebcca70571666dc6
 name: Node.js CI
 
 on:
@@ -32,4 +38,8 @@ jobs:
         args: deploy
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+<<<<<<< HEAD
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+=======
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+>>>>>>> c8a67afde52c216033aa1e4bebcca70571666dc6
